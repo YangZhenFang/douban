@@ -20,6 +20,11 @@ export default new Router({
       path: '/movie',
       component: resolve => require(['components/view/Movie.vue'], resolve),
       name: '电影'
+    },
+    {
+      path: '/comment',
+      component: resolve => require(['components/view/Movie.vue'], resolve),
+      name: '评论'
     }
   ]
 })
